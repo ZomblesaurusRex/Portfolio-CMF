@@ -13,6 +13,9 @@ ul{
 a{
     color: #000000;
 }
+.jumbotron{
+    background: none;
+}
 .portrait{
     height: 200px;
 
