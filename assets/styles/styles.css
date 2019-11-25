@@ -1,82 +1,130 @@
-body{
-    background-color: #000000;
-    color: #ffffff;
-    align-content: center;
+@font-face {
+  font-family: Amigo;
+  src: url(./AhoyAmigoDemoRegular-MxBP.ttf);
 }
-p{
-    font-family: 'Open Sans', sans-serif;
-
+@font-face {
+  font-family: Salmon-White-Personal-Use;
+  src: url(./SalmonWhitePersonalUse-n7KY.otf);
 }
-ul{
-    padding-top: 10px;
+body {
+  background-color: #000000;
+  color: #ffffff;
+  align-content: center;
 }
-a{
-    color: #000000;
+p {
+  font-family: "Open Sans", sans-serif;
 }
-.jumbotron{
-    background: none;
+ul {
+  padding-top: 10px;
 }
-.portrait{
-    height: 200px;
-
+a {
+  color: #070707;
 }
-.nav-item{
-    padding-left: 5px;
-    padding-right: 5px;
+#jumbotron-style {
+  background-color: #00000000;
 }
-.btn{
-    width: 100px;
-    height: 60px;
-    margin: 5px;
+.jumbotron {
+  background-image: url("https://webstockreview.net/images/purple-smoke-png-9.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 58% 5%;
+  height: 295px;
+  font-family: Amigo;
+  text-align: center;
 }
-.card{
-    align-content: center;
-    color: #000000;
-    margin: 10px;
+.portrait {
+  height: 200px;
 }
-.card-text{
-    height: 80px;
-    overflow: auto;
+.nav-item {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.nav-link {
+  font-size: 1.8em;
+  font-family: Amigo;
+}
+.btn {
+  width: 100px;
+  height: 60px;
+  margin: 5px;
+}
+.card {
+  align-content: center;
+  color: #000000;
+  margin: 10px;
+}
+.card-text {
+  height: 80px;
+  overflow: auto;
 }
 /* .card-img-top{
     height: 300;
 } */
-.nav{
-    background-color: aqua;
-    color: #000000;
+.nav {
+  background-image: linear-gradient(80deg, #3069e2, #4ce479, #4be0cd, #830de4);
+  border-bottom: solid;
+  border-bottom-style: solid;
+  border-image: linear-gradient(#ffffff #000000, #ffffff);
+  box-shadow: inset 0 0 30px #000000;
 }
-.logo{
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
+.logo {
+  font-family: Salmon-White-Personal-Use;
+  font-size: 40px;
 }
-.title{
+.title {
+  text-align: center;
+  margin-top: 20px;
+  font-family: Darkline, cursive;
+}
+.contact-deets {
+  color: #ffffff;
+}
+.display-4 {
+  font-family: Salmon-White-Personal-Use;
+  font-size: 5em;
+  text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.lead {
+  font-family: Amigo;
+  font-size: 3em;
+  text-shadow: 0 0 3px rgb(0, 0, 0);
+}
+/* Boxes */
+.boxesContainer {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  
+}
+.articlesBox {
+    position: absolute;
+    left: 0;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-    margin-top: 20px;
-    font-family: 'Josefin Sans', sans-serif;
+    height: 300px;
+    width: 200px;
+    background-image: linear-gradient(-65deg, #7338fc, #35e9e9);
+
+}
+.articlesTitle{
     
 }
-.contact-deets{
-    color: #ffffff;
-
+#logo-div {
+  padding-top: 5px;
+  margin-top: 0;
 }
-#logo-div{
-    padding-top: 5px;
-    margin-top: 0;
-
+#work-container {
+  display: flex;
 }
-#work-container{
-    display: flex;
+#contact-title {
+  font-size: 50px;
 }
-#contact-title{
-    font-size: 50px;
-
+#contact-title-div {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
 }
-#contact-title-div{
-    margin-top: 20px;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    
-}
-#contact-details-div{
-    text-align: center;
+#contact-details-div {
+  text-align: center;
 }
