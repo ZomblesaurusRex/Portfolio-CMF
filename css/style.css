@@ -51,7 +51,6 @@ theme.
 /* BODY */
 * {
   outline: none !important;
-
 }
 
 body {
@@ -78,7 +77,6 @@ html {
   }
 }
 /* HTML ELEMENTS */
-
 
 /* TRANSITION OVERYLAY */
 .transition-overlay {
@@ -547,18 +545,18 @@ button[type="submit"] {
 }
 
 /* HEADER */
-.works-icon{
+.works-icon {
   width: 100%;
   height: 300px;
   background: #fffefe;
 }
-.about-icon{
+.about-icon {
   width: 100%;
   height: 300px;
   background: #fffefe;
 }
-.tryfont{
-  font-family: 'Ribeye Marrow';
+.tryfont {
+  font-family: "Ribeye Marrow";
   font-size: 50em;
 }
 .header {
@@ -582,7 +580,7 @@ button[type="submit"] {
   width: 100%;
   float: left;
   border: 5px solid rgb(13, 0, 20);
-  border-width: .2em;
+  border-width: 0.2em;
 }
 .header .demos a:hover {
   border: 5px solid #fed20f;
@@ -640,14 +638,14 @@ button[type="submit"] {
   padding-top: 15px;
   font-size: 3em;
   font-weight: 700;
-  color: #fff;
-  font-family: 'Srisakdi', cursive;
-}
-.header .inner p {
-  color: #fff;
+  color: #000;
+  text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 1em rgb(192, 191, 191),
+    0 0 0.2em rgb(195, 195, 196);
+  font-family: 'Barlow Condensed', sans-serif;
   line-height: 43px;
   margin-bottom: 50px;
 }
+
 .header .inner .ghost-btn span {
   background: none;
   -webkit-text-fill-color: #ffffff;
@@ -1942,15 +1940,15 @@ button[type="submit"] {
 }
 
 /* RESPONSIVE MEDIUM  FIXES */
-@media only screen and (max-width: 1600px),
-  only screen and (max-device-width: 1600px) {
-    .header .video-bg video {
-      height: 100%;
-      width: auto;
-      position: absolute;
-      left: -184px;
-    }
+@media only screen and (min-width: 1400px),
+  only screen and (min-device-width: 1400px) {
+  .header .video-bg video {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    left: -10px;
   }
+}
 @media only screen and (max-width: 1169px),
   only screen and (max-device-width: 1169px) {
   .navbar .navbar-nav {
@@ -2053,12 +2051,12 @@ button[type="submit"] {
     top: 575px;
   }
   .header .video-bg video {
-  height: 60%;
-  width: auto;
-  position: absolute;
-  left: -270px;
-  top: 232px;
-}
+    height: 60%;
+    width: auto;
+    position: absolute;
+    left: -270px;
+    top: 232px;
+  }
   .hamburger-menu-box .menu .navbar-nav .nav-item .nav-link {
     font-size: 17px;
   }
