@@ -605,18 +605,18 @@ button[type="submit"] {
 }
 .header .video-bg {
   width: 100%;
-  position: absolute;
+  height:100%;
+  position: relative;
   left: 0;
   top: 0;
   overflow: hidden;
   margin: 0;
   padding: 0;
 }
-.header .video-bg video {
+.header .video-bg video{
   width: 100%;
-  float: left;
-  opacity: 0.9;
 }
+
 .header .inner {
   width: 40%;
   position: absolute;
@@ -1938,15 +1938,6 @@ button[type="submit"] {
 }
 
 /* RESPONSIVE MEDIUM  FIXES */
-@media only screen and (min-width: 1400px),
-  only screen and (min-device-width: 1400px) {
-  .header .video-bg video {
-    height: 100%;
-    width: auto;
-    position: absolute;
-    left: -10px;
-  }
-}
 @media only screen and (max-width: 1169px),
   only screen and (max-device-width: 1169px) {
   .navbar .navbar-nav {
@@ -2047,13 +2038,6 @@ button[type="submit"] {
   }
   .header .inner .ghost-btn {
     top: 575px;
-  }
-  .header .video-bg video {
-    height: 60%;
-    width: 100%;
-    position: absolute;
-    left: -270px;
-    top: 232px;
   }
   .hamburger-menu-box .menu .navbar-nav .nav-item .nav-link {
     font-size: 17px;
