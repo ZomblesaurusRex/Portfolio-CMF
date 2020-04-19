@@ -85,7 +85,7 @@ html {
   position: fixed;
   left: 0;
   top: 0;
-  background: #99a4be;
+  background: #87e2d3;
   opacity: 0;
   visibility: hidden;
   transition-duration: 700ms;
@@ -107,7 +107,7 @@ html {
   left: 0;
   top: 0;
   z-index: 9999999;
-  background: #99a4be;
+  background: #87e2d3;
 }
 
 .preloader {
@@ -373,7 +373,7 @@ button[type="submit"] {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background: #99a4be;
+  background: #87e2d3;
   position: fixed;
   left: 0;
   top: 0;
@@ -711,19 +711,19 @@ button[type="submit"] {
   display: none;
 }
 .navbar.stick-me .navbar-nav .nav-item .nav-link {
-  color: #99a4be;
+  color: #87e2d3;
 }
 .navbar.stick-me .search-btn {
-  background: #99a4be;
+  background: #87e2d3;
   -webkit-mask-image: url(../images/search-icon.svg);
   mask-image: url(../images/search-icon.svg);
 }
 .navbar.stick-me .custom-btn {
-  background: #99a4be;
+  background: #87e2d3;
   color: #fff;
 }
 .navbar.stick-me .hamburger-menu span {
-  background: #99a4be;
+  background: #87e2d3;
 }
 .navbar .logo {
   float: left;
@@ -765,7 +765,7 @@ button[type="submit"] {
   padding: 0 35px;
   border-radius: 40px;
   margin-top: 6px;
-  color: #99a4be;
+  color: #87e2d3;
   font-size: 13px;
   font-weight: 600;
 }
@@ -957,15 +957,16 @@ button[type="submit"] {
   display: flex;
   flex-direction: row;
   align-items: center;
+  align-content: center;
   padding: 100px 0;
 }
 .side-image-content .side-image {
-  flex-basis: 50%;
+  flex-basis: 30%;
   display: flex;
 }
 .side-image-content .side-image .left {
   flex-basis: 60%;
-  padding-right: 30px;
+  padding-right: 15px;
 }
 .side-image-content .side-image .left .small-image {
   width: 70%;
@@ -1002,7 +1003,7 @@ button[type="submit"] {
   width: 100%;
   display: flex;
   padding: 100px 0;
-  background: #99a4be;
+  background: #87e2d3;
 }
 .main-features .titles {
   display: block;
@@ -1218,7 +1219,7 @@ button[type="submit"] {
   text-align: center;
   padding: 60px 0;
   background: #f1f5fd;
-  color: #99a4be;
+  color: #87e2d3;
 }
 .feeding-coddle figure {
   width: 100%;
@@ -1272,7 +1273,7 @@ button[type="submit"] {
 .recent-works .works-filter li a {
   float: left;
   padding: 0 10px;
-  color: #99a4be;
+  color: #87e2d3;
   font-weight: 600;
   font-size: 13px;
 }
@@ -1328,7 +1329,7 @@ button[type="submit"] {
 .all-works .works-filter li a {
   float: left;
   padding: 0 10px;
-  color: #99a4be;
+  color: #87e2d3;
   font-weight: 600;
   font-size: 13px;
 }
@@ -1606,7 +1607,7 @@ button[type="submit"] {
   margin-bottom: 15px;
   font-size: 22px;
   font-weight: 700;
-  color: #99a4be;
+  color: #87e2d3;
 }
 .news .news-sidebar .widget p {
   font-size: 13px;
@@ -1654,11 +1655,11 @@ button[type="submit"] {
   border-radius: 23px;
   font-size: 11px;
   font-weight: 600;
-  color: #99a4be;
+  color: #87e2d3;
 }
 .news .news-sidebar .widget .tags li a:hover {
-  background: #99a4be;
-  border-color: #99a4be;
+  background: #87e2d3;
+  border-color: #87e2d3;
   text-decoration: none;
   color: #fff;
 }
@@ -1716,7 +1717,7 @@ button[type="submit"] {
 .contact h5 {
   font-family: "Fjalla One";
   font-size: 30px;
-  color: #99a4be;
+  color: #87e2d3;
 }
 .contact address {
   width: 100%;
@@ -1760,7 +1761,7 @@ button[type="submit"] {
 .footer-bar {
   width: 100%;
   float: left;
-  background: #99a4be;
+  background: #87e2d3;
   padding: 50px 0;
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -1791,7 +1792,7 @@ button[type="submit"] {
 .footer {
   width: 100%;
   float: left;
-  background: #99a4be;
+  background: #87e2d3;
   color: #fff;
   padding: 50px 0;
   text-align: center;
@@ -2287,7 +2288,7 @@ button[type="submit"] {
 }
 
 [data-aos="slide-effect"].se2-white:after {
-  background-color: #99a4be;
+  background-color: #87e2d3;
 }
 
 [data-aos="slide-effect"].animated:after {
