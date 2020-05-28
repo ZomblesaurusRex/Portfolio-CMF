@@ -56,7 +56,7 @@ theme.
 body {
   font-family: "Poppins";
   font-size: 14px;
-  background-color: #000;
+  background-color: rgb(0, 0, 0);
 }
 
 body {
@@ -564,10 +564,6 @@ button[type="submit"] {
   height: 100%;
   float: left;
   background: #000000;
-  /* background-image: url("../images/geometric-colors-white-bg.jpg");
-  background-position: fixed;
-  background-repeat: no-repeat;
-  background-size: cover; */
   overflow: hidden;
   position: relative;
 }
@@ -602,6 +598,7 @@ button[type="submit"] {
   left: 0;
   top: 0;
   overflow: hidden;
+  background-color: #000;
 }
 .header .video-bg {
   width: 100%;
@@ -625,12 +622,17 @@ button[type="submit"] {
   z-index: 3;
   margin-bottom: 50px;
 }
-.header .inner h2 {
-  font-size: 650%;
+.header .inner h2 #rotatingDescriptors{
+  font-size: 350%;
   font-weight: 700;
-  color: #fff;
+  color: #2c0841;
+  text-shadow: 2px 2px 5px #03d2e0;
   font-family: "Fjalla One";
   margin-right: 10px;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
 }
 .header .inner p {
   padding-top: 15px;
@@ -687,6 +689,7 @@ button[type="submit"] {
   transition: 0.25s ease-in-out;
   background: url(../images/rainbow-bar.png) top repeat-x;
   background-size: auto 5px;
+  background-color: #ffffff;
 }
 .navbar:after {
   content: "";
@@ -711,7 +714,8 @@ button[type="submit"] {
   display: none;
 }
 .navbar.stick-me .navbar-nav .nav-item .nav-link {
-  color: #87e2d3;
+  color: #2c0841;
+  text-shadow: 2px 2px 5px #03d2e0;
 }
 .navbar.stick-me .search-btn {
   background: #87e2d3;
@@ -761,13 +765,14 @@ button[type="submit"] {
   float: right;
   height: 40px;
   line-height: 42px;
-  background: #fff;
+  background: #000;
   padding: 0 35px;
   border-radius: 40px;
   margin-top: 6px;
   color: #87e2d3;
   font-size: 13px;
   font-weight: 600;
+  text-shadow: 1px 1px 2.5px #ffffff;
 }
 .navbar .custom-btn:hover {
   text-decoration: none;
@@ -837,14 +842,11 @@ button[type="submit"] {
 .navbar .navbar-nav .nav-item .nav-link {
   padding: 0 10px;
   font-weight: 600;
-  font-size: 13px;
-  color: rgb(255, 255, 255);
-  border-bottom: 1px solid transparent;
+  font-size: 14px;
+  color: #000;
+  text-shadow: 2px 2px 4px #01ffff;
 }
-.navbar .navbar-nav .nav-item .nav-link:hover {
-  text-decoration: none;
-  color: #fed20f;
-}
+
 .navbar .navbar-nav .nav-item .nav-link:before {
   content: "";
   display: block;
@@ -881,76 +883,6 @@ button[type="submit"] {
   visibility: visible;
 }
 
-/* INTRO CODDLE */
-.intro-coddle {
-  width: 100%;
-  display: flex;
-  text-align: center;
-  padding: 60px 0;
-}
-.intro-coddle .article {
-  width: 100%;
-  float: left;
-}
-.intro-coddle .article p {
-  line-height: 23px;
-  margin-bottom: 15px;
-  opacity: 0.8;
-}
-.intro-coddle .ghost-btn {
-  margin-top: 30px;
-}
-
-/* TEAM MEMBERS */
-.team-members {
-  width: 100%;
-  display: flex;
-  text-align: center;
-  padding-top: 60px;
-  border-top: 1px solid #eee;
-}
-.team-members figure {
-  width: 100%;
-  float: left;
-  position: relative;
-  margin: 0;
-}
-.team-members figure img {
-  width: 100%;
-  float: left;
-}
-.team-members figure figcaption {
-  width: 100%;
-  height: 100%;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.7);
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -ms-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
-  opacity: 0;
-}
-.team-members figure figcaption h4 {
-  color: #fff;
-  margin: 0;
-}
-.team-members figure figcaption span {
-  color: #fff;
-  font-size: 12px;
-  font-weight: 600;
-  opacity: 0.7;
-}
-.team-members figure:hover figcaption {
-  opacity: 1;
-}
-
 /* SIDE IMAGE CONTENT */
 .side-image-content {
   width: 100%;
@@ -958,7 +890,7 @@ button[type="submit"] {
   flex-direction: row;
   align-items: center;
   align-content: center;
-  padding: 100px 0;
+  padding: 25px 0;
 }
 .side-image-content .side-image {
   flex-basis: 50%;
@@ -1238,7 +1170,7 @@ button[type="submit"] {
 .recent-works {
   width: 100%;
   float: left;
-  padding: 100px 0;
+  padding: 25px 0;
   text-align: center;
 }
 .recent-works h6 {
@@ -1757,7 +1689,6 @@ button[type="submit"] {
   background: #87e2d3;
   padding: 50px 0;
   color: #fff;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .footer-bar figure {
   width: 40px;
@@ -1835,7 +1766,7 @@ button[type="submit"] {
 }
 .coddle__box:hover figure {
   box-shadow: 5px 20px 50px 5px rgba(0, 0, 0, 0.3);
-  display: none;
+ 
 }
 
 .coddle__box__figure:hover .coddle__box__caption {
