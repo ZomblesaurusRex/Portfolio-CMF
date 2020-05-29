@@ -56,7 +56,7 @@ theme.
 body {
   font-family: "Poppins";
   font-size: 14px;
-  background-color: rgb(0, 0, 0);
+  background-color: #000000;
 }
 
 body {
@@ -85,7 +85,7 @@ html {
   position: fixed;
   left: 0;
   top: 0;
-  background: #87e2d3;
+  background: #bbc6e0;
   opacity: 0;
   visibility: hidden;
   transition-duration: 700ms;
@@ -107,7 +107,7 @@ html {
   left: 0;
   top: 0;
   z-index: 9999999;
-  background: #87e2d3;
+  background: #26073a;
 }
 
 .preloader {
@@ -373,7 +373,7 @@ button[type="submit"] {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background: #87e2d3;
+  background: #1c0129;
   position: fixed;
   left: 0;
   top: 0;
@@ -626,7 +626,7 @@ button[type="submit"] {
   font-size: 750%;
   font-weight: 700;
   color: #000000;
-  text-shadow: 4px 4px 8px #ffffff;
+  text-shadow: 1px 1px 2px #ebe6e6, 0 0 25px #f3f3f3, 0 0 5px #a2a2a3;  
   font-family: "Fjalla One";
   margin-right: 10px;
   -webkit-transition: all 1s ease-out;
@@ -689,8 +689,7 @@ button[type="submit"] {
   width: 100%;
   float: left;
   display: block;
-  padding: 15px 5%;
-  padding-top: 20px;
+  padding: 10px 2%;
   text-align: center;
   position: relative;
   z-index: 9;
@@ -701,13 +700,14 @@ button[type="submit"] {
   transition: 0.25s ease-in-out;
   background: url(../images/rainbow-bar.png) top repeat-x;
   background-size: auto 5px;
-  background-color: #ffffff;
+  background-color: #bbc6e0;
+
 }
 .navbar:after {
   content: "";
   width: 70%;
   height: 1px;
-  background: #fff;
+  background: #bbc6e0;
   opacity: 0.2;
   position: absolute;
   left: 15%;
@@ -726,8 +726,9 @@ button[type="submit"] {
   display: none;
 }
 .navbar.stick-me .navbar-nav .nav-item .nav-link {
-  color: #000;
-  text-shadow: 2px 2px 1.5px #03d2e0;
+  color: #222221;
+  text-shadow: 1px 1px 1.5px #242525;
+  
 }
 .navbar.stick-me .search-btn {
   background: #87e2d3;
@@ -735,8 +736,9 @@ button[type="submit"] {
   mask-image: url(../images/search-icon.svg);
 }
 .navbar.stick-me .custom-btn {
-  background: #87e2d3;
-  color: #fff;
+  background: #242525;
+  color: #1f1e1e;
+  box-shadow: 0 4px 8px 0 #bbc6e0, 0 6px 20px 0 #bbc6e0;
 }
 .navbar.stick-me .hamburger-menu span {
   background: #87e2d3;
@@ -777,19 +779,20 @@ button[type="submit"] {
   float: right;
   height: 40px;
   line-height: 42px;
-  background: #fff;
+  background: #2b2b2b;
   padding: 0 35px;
   border-radius: 40px;
   margin-top: 6px;
   color: #000;
   font-size: 13px;
   font-weight: 600;
-  text-shadow: 2px 2px 1.5px #0a9ba0;
-}
+  text-shadow: 0 0 3px #bbc6e0;
+  box-shadow: 0 4px 8px 0 #00000070, 0 6px 20px 0 #00000070;}
 .navbar .custom-btn:hover {
   text-decoration: none;
-  background: #fed20f;
-  color: #fff;
+  background: #2b2b2b;
+  color: #bbc6e0;
+  
 }
 .navbar .navbar-nav {
   height: 45px;
@@ -856,7 +859,7 @@ button[type="submit"] {
   font-weight: 600;
   font-size: 14px;
   color: #000;
-  text-shadow: 2px 2px 4px #01ffff;
+  text-shadow: 0 0 3px #252525;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:before {
@@ -884,6 +887,7 @@ button[type="submit"] {
   width: 100%;
   background: #fff;
   transition: width 0.25s ease;
+  
 }
 .navbar .navbar-nav .nav-item .nav-link:hover:after {
   width: 100%;
@@ -922,6 +926,9 @@ button[type="submit"] {
   flex-direction: column;
   padding: 0 calc(25vw - 270px);
 }
+.side-image-content .side-content .titles h3{
+
+}
 .side-image-content .side-content .titles {
   text-align: left;
 }
@@ -940,7 +947,7 @@ button[type="submit"] {
   width: 100%;
   display: flex;
   padding: 100px 0;
-  background: #87e2d3;
+  background: #bbc6e0;
 }
 .main-features .titles {
   display: block;
@@ -1068,7 +1075,7 @@ button[type="submit"] {
   margin-bottom: 30px;
 }
 .services .service-box:hover {
-  box-shadow: 5px 20px 50px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 20px 50px 5px #0000004d;
 }
 .services .service-box figure {
   width: 60px;
@@ -1156,7 +1163,7 @@ button[type="submit"] {
   text-align: center;
   padding: 60px 0;
   background: #f1f5fd;
-  color: #87e2d3;
+  color: #1c0129;
 }
 .feeding-coddle figure {
   width: 100%;
@@ -1174,7 +1181,7 @@ button[type="submit"] {
 .feeding-coddle h6 {
   font-weight: 600;
   font-size: 12px;
-  color: #f07f23;
+  color: #f0b923;
   text-transform: uppercase;
 }
 
@@ -1698,7 +1705,7 @@ button[type="submit"] {
 .footer-bar {
   width: 100%;
   float: left;
-  background: #87e2d3;
+  background: #000000;
   padding: 50px 0;
   color: #fff;
 }
@@ -1728,7 +1735,7 @@ button[type="submit"] {
 .footer {
   width: 100%;
   float: left;
-  background: #87e2d3;
+  background: #1c0129;
   color: #fff;
   padding: 50px 0;
   text-align: center;
@@ -2223,7 +2230,7 @@ button[type="submit"] {
 }
 
 [data-aos="slide-effect"].se2-white:after {
-  background-color: #87e2d3;
+  background-color: #bbc6e0;
 }
 
 [data-aos="slide-effect"].animated:after {
