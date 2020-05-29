@@ -1684,11 +1684,13 @@ button[type="submit"] {
   background: url(../images/purple-bg.jpg) center no-repeat;
   background-size: cover;
 }
-.quote-bar h4 {
+.quote-bar h2 {
   font-size: 50px;
+  color: #200530;
+  text-shadow: 0 0 3px #bbc6e0;
   font-family: "Fjalla One";
-  color: #fff;
   margin-top: 0;
+
 }
 .quote-bar p {
   padding: 0 10%;
@@ -1698,7 +1700,7 @@ button[type="submit"] {
 }
 .quote-bar .ghost-btn span {
   background: none;
-  -webkit-text-fill-color: #ffffff;
+  -webkit-text-fill-color: #000000;
 }
 
 /* FOOTER BAR */
