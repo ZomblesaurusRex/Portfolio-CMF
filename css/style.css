@@ -1162,8 +1162,8 @@ button[type="submit"] {
   display: flex;
   text-align: center;
   padding: 60px 0;
-  background: #f1f5fd;
-  color: #1c0129;
+  background: #000;
+  color: #87e2d3;
 }
 .feeding-coddle figure {
   width: 100%;
