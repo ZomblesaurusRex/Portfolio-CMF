@@ -926,9 +926,6 @@ button[type="submit"] {
   flex-direction: column;
   padding: 0 calc(25vw - 270px);
 }
-.side-image-content .side-content .titles h3{
-
-}
 .side-image-content .side-content .titles {
   text-align: left;
 }
@@ -946,7 +943,7 @@ button[type="submit"] {
 .main-features {
   width: 100%;
   display: flex;
-  padding: 100px 0;
+  padding: 50px 0;
   background: #bbc6e0;
 }
 .main-features .titles {
@@ -956,7 +953,9 @@ button[type="submit"] {
   mix-blend-mode: color-dodge;
 }
 .main-features .titles h3 {
-  -webkit-text-fill-color: #fff;
+  -webkit-text-fill-color: #000;
+    text-shadow: 0 0 3px #bbc6e0;
+
 }
 .main-features .feature-box {
   width: 100%;
@@ -1165,8 +1164,10 @@ button[type="submit"] {
   display: flex;
   text-align: center;
   padding: 60px 0;
-  background: #000;
-  color: #87e2d3;
+  background-image: url("../images/purple-bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: #000000;
 }
 .feeding-coddle figure {
   width: 100%;
@@ -1220,7 +1221,7 @@ button[type="submit"] {
 .recent-works .works-filter li a {
   float: left;
   padding: 0 10px;
-  color: #87e2d3;
+  color: #c9bfe0;
   font-weight: 600;
   font-size: 13px;
 }
@@ -1722,6 +1723,7 @@ button[type="submit"] {
 }
 .footer-bar figure img {
   width: 100%;
+  padding-left: 10px;
 }
 .footer-bar h4 {
   font-size: 16px;
@@ -1740,8 +1742,6 @@ button[type="submit"] {
 .footer {
   width: 100%;
   float: left;
-  background: #1c0129;
-  color: #fff;
   padding: 50px 0;
   text-align: center;
 }
