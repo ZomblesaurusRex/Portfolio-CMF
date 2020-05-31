@@ -283,11 +283,11 @@ button[type="submit"] {
   transition: all 600ms ease;
 }
 .ghost-btn span {
-  background: #ff8282;
-  background: -moz-linear-gradient(left, #ff8282 0%, #e178ed 100%);
-  background: -webkit-linear-gradient(left, #ff8282 0%, #e178ed 100%);
-  background: linear-gradient(to right, #ff8282 0%, #e178ed 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+  background: #000000;
+  background: -moz-linear-gradient(left, #000 0%, #240342 100%);
+  background: -webkit-linear-gradient(left, #000 0%, #240342 100%);
+  background: linear-gradient(to right, #000 0%, #240342 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000', endColorstr='#240342',GradientType=1 );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -298,6 +298,8 @@ button[type="submit"] {
   stroke-dasharray: 156, 505;
   stroke-dashoffset: 427;
 }
+
+
 
 .ghost-btn:hover {
   text-decoration: none;
@@ -727,7 +729,7 @@ button[type="submit"] {
 }
 .navbar.stick-me .navbar-nav .nav-item .nav-link {
   color: #222221;
-  text-shadow: 1px 1px 1.5px #242525;
+  text-shadow: 0 0 3px #242525;
   
 }
 .navbar.stick-me .search-btn {
@@ -1691,7 +1693,7 @@ button[type="submit"] {
 .quote-bar h2 {
   font-size: 50px;
   color: #200530;
-  text-shadow: 0 0 3px #bbc6e0;
+  text-shadow: 0 0 3px #212224a4;
   font-family: "Fjalla One";
   margin-top: 0;
 
@@ -1780,16 +1782,20 @@ button[type="submit"] {
   position: relative;
   width: 100%;
   float: left;
-  color: #fff;
+  color: #000;
   flex: none;
   perspective: 1000px;
 
 }
 .coddle__box:hover {
   z-index: 3;
+    color: #dfae0e;
+      text-shadow: 0 0 2.5px #000000cb;
+
+
 }
 .coddle__box:hover figure {
-  box-shadow: 5px 20px 50px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 20px 50px 5px #00000060;
  
 }
 
@@ -1852,8 +1858,8 @@ button[type="submit"] {
   left: -50%;
   background-image: linear-gradient(
     45deg,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(255, 255, 255, 0.25) 50%,
+    #00000080 0%,
+    #ffffff40 50%,
     transparent 100%
   );
 }
@@ -1874,7 +1880,8 @@ button[type="submit"] {
   line-height: 1;
 }
 .coddle__box__title a {
-  color: #fff;
+  color: #000;
+  text-shadow: 0 0 2.5px #c9bfe0;;
 }
 .coddle__box__title a:hover {
   text-decoration: none;
