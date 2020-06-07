@@ -283,7 +283,7 @@ button[type="submit"] {
   transition: all 600ms ease;
 }
 .ghost-btn span {
-  background: #000000;
+  background: #0de4d9;
   background: -moz-linear-gradient(left, #000 0%, #240342 100%);
   background: -webkit-linear-gradient(left, #000 0%, #240342 100%);
   background: linear-gradient(to right, #000 0%, #240342 100%);
@@ -1689,6 +1689,7 @@ button[type="submit"] {
   text-align: center;
   background: url(../images/purple-bg.jpg) center no-repeat;
   background-size: cover;
+  background-color: #000000;
 }
 .quote-bar h2 {
   font-size: 50px;
@@ -1704,11 +1705,22 @@ button[type="submit"] {
   line-height: 26px;
   margin-bottom: 50px;
 }
-.quote-bar .ghost-btn span {
-  background: none;
-  -webkit-text-fill-color: #000000;
+ .quote-bar ul {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 0;
 }
-
+.quote-bar li {
+  float: left;
+  margin-left: 20px;
+  padding: 0;
+  list-style: none;
+}
+.quote-bar li a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
 /* FOOTER BAR */
 .footer-bar {
   width: 100%;
@@ -1886,7 +1898,10 @@ button[type="submit"] {
 .coddle__box__title a:hover {
   text-decoration: none;
 }
-
+.coddle__box__caption:hover a {
+  text-decoration: none;
+  text-shadow: 0 0 .5px #efefef;
+}
 .coddle__box__description {
   margin: 1em 0 0 0;
   font-size: 11px;
@@ -2047,9 +2062,10 @@ button[type="submit"] {
   .all-works .works-grid li {
     width: 100%;
   }
-  .quote-bar h4 {
+  .quote-bar h6 {
     font-size: 44px;
   }
+ 
   .footer-bar {
     text-align: center;
   }
