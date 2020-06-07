@@ -1,12 +1,4 @@
 /*
-
-@Author: Themezinho
-@URL: http://www.themezinho.net 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
-
-
 // Table of contents //
 
 	1. 	Body
@@ -204,6 +196,7 @@ button[type="submit"] {
   height: 2px;
   width: 22px;
   background: #fff;
+  color: #000;
   opacity: 1;
   position: absolute;
   right: 12px;
@@ -284,10 +277,10 @@ button[type="submit"] {
 }
 .ghost-btn span {
   background: #0de4d9;
-  background: -moz-linear-gradient(left, #000 0%, #240342 100%);
-  background: -webkit-linear-gradient(left, #000 0%, #240342 100%);
-  background: linear-gradient(to right, #000 0%, #240342 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000', endColorstr='#240342',GradientType=1 );
+  background: -moz-linear-gradient(left, #afa2c4 0%, #a6ddda 100%);
+  background: -webkit-linear-gradient(left, #afa2c4 0%, #a6ddda 100%);
+  background: linear-gradient(to right, #afa2c4 0%, #a6ddda 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afa2c4', endColorstr='#a6ddda',GradientType=1 );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -454,8 +447,8 @@ button[type="submit"] {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background: #bbc6e0;
-  position: fixed;
+  background-image: url("../images/purple-bg.jpg");
+  background-size: cover;  position: fixed;
   left: 0;
   top: 0;
   opacity: 0;
@@ -540,6 +533,9 @@ button[type="submit"] {
 .hamburger-menu-box .inner .ghost-btn span {
   background: none;
   -webkit-text-fill-color: #ffffff;
+}
+.hamburger-menu-box .inner .nav-link {
+  color: #000;
 }
 .hamburger-menu-box.show-me {
   opacity: 1;
@@ -873,6 +869,7 @@ button[type="submit"] {
   height: 1px;
   width: 0;
   transition: width 0s ease, background 0.25s ease;
+  color: #000;
 }
 .navbar .navbar-nav .nav-item .nav-link:after {
   content: "";
@@ -884,6 +881,7 @@ button[type="submit"] {
   width: 0;
   background: #fff;
   transition: width 0.25s ease;
+    color: #000;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover:before {
   width: 100%;
@@ -2011,6 +2009,7 @@ button[type="submit"] {
   }
   .hamburger-menu-box .menu .navbar-nav .nav-item .nav-link {
     font-size: 17px;
+    color: #000;
   }
   .side-image-content .side-image .left {
     padding-right: 15px;
