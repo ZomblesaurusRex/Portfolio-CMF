@@ -632,18 +632,6 @@ button[type="submit"] {
   -o-transition: all 1s ease-out;
   transition: all 1s ease-out;
 }
-.header .inner h2 #rotatingDescriptors{
-  font-size: 350%;
-  font-weight: 700;
-  color: #2c0841;
-  text-shadow: 2px 2px 5px #03d2e0;
-  font-family: "Fjalla One";
-  margin-right: 10px;
-  -webkit-transition: all 1s ease-out;
-  -moz-transition: all 1s ease-out;
-  -o-transition: all 1s ease-out;
-  transition: all 1s ease-out;
-}
 .header .inner p {
   padding-top: 15px;
   font-size: 3em;
@@ -1690,7 +1678,7 @@ button[type="submit"] {
   background-color: #000000;
 }
 .quote-bar h2 {
-  font-size: 50px;
+  font-size: 30px;
   color: #200530;
   text-shadow: 0 0 3px #212224a4;
   font-family: "Fjalla One";
