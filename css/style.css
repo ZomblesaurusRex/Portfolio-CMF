@@ -889,24 +889,29 @@ button[type="submit"] {
 
 /* SIDE IMAGE CONTENT */
 .side-image-content {
-  width: 100%;
+  width: 60%;
   display: flex;
   flex-direction: row;
   align-items: center;
   align-content: center;
   padding: 25px 0;
+  margin: auto;
 }
 .side-image-content .side-image {
-  flex-basis: 50%;
+  flex-basis: 35%;
   display: flex;
 }
 .side-image-content .side-image .left {
-  flex-basis: 100%;
+  flex-basis: 50.%;
   padding-right: 15px;
 }
 #portrait{
-  width: 70%;
-  padding-left: 5%;
+  width: 100%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #fed20f;
+  box-shadow: 0 4px 8px 0 #d6d1d154, 0 6px 20px 0 rgba(231, 230, 230, 0.356);
+  text-align: center;
 }
 .side-image-content .side-content {
   flex: 1;
@@ -1786,9 +1791,11 @@ button[type="submit"] {
 .coddle__box {
   display: block;
   position: relative;
-  width: 100%;
+  width: 300px;
+
   float: left;
-  color: #000;
+  margin-left: 5%;
+  color: rgba(0, 0, 0, 0);
   flex: none;
   perspective: 1000px;
 
@@ -1796,7 +1803,7 @@ button[type="submit"] {
 .coddle__box:hover {
   z-index: 3;
     color: #dfae0e;
-      text-shadow: 0 0 2.5px #000000cb;
+      text-shadow: 0 0 3.5px #000000cb;
 
 
 }
@@ -1822,8 +1829,8 @@ button[type="submit"] {
 }
 
 .coddle__box__image {
-  margin: 0;
-  width: 350px;
+  margin: auto;
+  width: 300px;;
   height: 300px;
   display: block;
   filter: brightness(100%);
@@ -1880,14 +1887,19 @@ button[type="submit"] {
 
 .coddle__box__title {
   margin: 0;
+  text-align: center;
   font-weight: normal;
   font-size: 36px;
   font-family: "Fjalla One", serif;
   line-height: 1;
+
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) , #ffffffbb, rgba(0, 0, 0, 0));
+  padding-top: 5px;
 }
 .coddle__box__title a {
-  color: #000;
-  text-shadow: 0 0 2.5px #c9bfe0;;
+  color: #dfae0e;
+  text-shadow: 2px 2px 4px #000000
+
 }
 .coddle__box__title a:hover {
   text-decoration: none;
