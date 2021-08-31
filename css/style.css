@@ -283,7 +283,7 @@ button[type="submit"] {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afa2c4', endColorstr='#a6ddda',GradientType=1 );
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: ghostwhite;
   text-shadow: 1px 1px 2px #000;
 }
 
@@ -536,7 +536,7 @@ button[type="submit"] {
 }
 .hamburger-menu-box .inner .ghost-btn span {
   background: none;
-  -webkit-text-fill-color: #ffffff;
+  -webkit-text-fill-color: ghostwhite;
 }
 .hamburger-menu-box .inner .nav-link {
   color: #000;
@@ -650,7 +650,7 @@ button[type="submit"] {
 
 .header .inner .ghost-btn span {
   background: none;
-  -webkit-text-fill-color: #ffffff;
+  -webkit-text-fill-color: ghostwhite;
 }
 .header .isolayer {
   z-index: 1;
