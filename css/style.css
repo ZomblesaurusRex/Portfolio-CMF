@@ -276,14 +276,15 @@ button[type="submit"] {
   transition: all 600ms ease;
 }
 .ghost-btn span {
-  background: #0de4d9;
-  background: -moz-linear-gradient(left, #afa2c4 0%, #a6ddda 100%);
-  background: -webkit-linear-gradient(left, #afa2c4 0%, #a6ddda 100%);
-  background: linear-gradient(to right, #afa2c4 0%, #a6ddda 100%);
+  background: #053331;
+  background: -moz-linear-gradient(left, #4f2a8a 0%, #0b726d 100%);
+  background: -webkit-linear-gradient(left, #3c1975 0%, #096b66 100%);
+  background: linear-gradient(to right, #341466 0%, #09857e 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afa2c4', endColorstr='#a6ddda',GradientType=1 );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px #000;
 }
 
 .ghost-btn:hover svg rect {
@@ -292,10 +293,13 @@ button[type="submit"] {
   stroke-dashoffset: 427;
 }
 
-
+.ghost-btn span:hover{
+ 
+}
 
 .ghost-btn:hover {
   text-decoration: none;
+  text-shadow: 1px 1px 2px #fff;
 }
 
 /* TITLES */
@@ -577,7 +581,7 @@ button[type="submit"] {
   border-width: 0.2em;
 }
 .header .demos a:hover {
-  border: 5px solid #fed20f;
+  border: 5px solid #0a0a0a;
 }
 .header .demos h6 {
   width: 100%;
@@ -1892,7 +1896,6 @@ button[type="submit"] {
   font-size: 36px;
   font-family: "Fjalla One", serif;
   line-height: 1;
-
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0) , #ffffffbb, rgba(0, 0, 0, 0));
   padding-top: 5px;
 }
@@ -1902,11 +1905,12 @@ button[type="submit"] {
 
 }
 .coddle__box__title a:hover {
-  text-decoration: none;
+  color: #dfae0e;
+  text-shadow: 2px 2px 4px #000000;
 }
 .coddle__box__caption:hover a {
   text-decoration: none;
-  text-shadow: 0 0 .5px #efefef;
+  text-shadow: 2px 2px 4px #000000;
 }
 .coddle__box__description {
   margin: 1em 0 0 0;
